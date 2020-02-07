@@ -129,7 +129,7 @@ extension ImagePipeline {
         /// image each time it receives a new portion of data from data loader.
         /// The decoder used by the image loading session determines whether
         /// to produce a partial image or not.
-        public var isProgressiveDecodingEnabled = false
+        public var isProgressiveDecodingEnabled = true
 
         /// If the data task is terminated (either because of a failure or a
         /// cancellation) and the image was partially loaded, the next load will
